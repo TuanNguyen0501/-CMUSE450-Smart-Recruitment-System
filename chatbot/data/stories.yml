@@ -1,0 +1,35 @@
+stories:
+  - story: ask search job by skill
+    steps:
+      - intent: search_job_by_skill
+      - action: action_search_job_by_skill
+
+  - story: ask job search by location
+    steps:
+      - intent: job_search_by_location
+      - action: action_job_search_by_location
+
+  - story: ask inquire companies by employee count
+    steps:
+      - intent: inquire_companies_by_employee_count
+      - action: action_inquire_companies_by_employee_count
+
+  - story: ask search jobs by experience
+    steps:
+      - intent: search_jobs_by_experience
+      - action: action_search_jobs_by_experience
+
+  - story: ask search job by position
+    steps:
+      - intent: search_job_by_position
+      - action: action_search_job_by_position
+
+  - story: ask search job by salary
+    steps:
+      - intent: search_job_by_salary
+      - action: action_search_job_by_salary
+
+  - story: ask recruitment trend
+    steps:
+      - intent: recruitment_trend
+      - action: action_recruitment_trend

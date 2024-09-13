@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* config css toastify */
+  --toastify-color-success: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  --toastify-color-warning: linear-gradient(15deg, #cff10f 0%, #f3cc0a 100%);
+  --toastify-color-error: linear-gradient(15deg, #f43b47 0%, #453a94 100%);
+  --toastify-icon-color-success: #035450;
+  --toastify-icon-color-warning: #cff10f;
+  --toastify-icon-color-error: #d0011b;
+}
+
+* {
+  font-family: "Nunito", sans-serif !important;
+  font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+html:hover *::-webkit-scrollbar {
+  display: block;
+}
+
+.name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  min-height: 20px;
+  max-width: 200px;
+}
+
+.name-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  min-height: 20px;
+}
+
+.layout__wrapper {
+  background-image: linear-gradient(
+    0deg,
+    hsl(215, 14%, 16%) 0%,
+    hsl(215, 19%, 29%) 100%
+  );
+  border-radius: 3px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.25);
+  margin: 3rem auto;
+  max-width: 370px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.store-container {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(0, 247, 255);
+}
+
+.items-container {
+  text-align: center;
+}
+
+.item-container {
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
